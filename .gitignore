@@ -7,6 +7,54 @@ __pycache__/
 .venv/
 venv/
 env/
+.venv*/
+venv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model weights
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Datasets
+dataset/
+datasets/
+data/
+
+# Generated outputs
+outputs/
+logs/
+
+# Temporary files
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv*/
+venv*/
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,35 +1,75 @@
 # Autonomous Systems
 
-Development and experimentation with autonomous systems, focusing on intelligent perception, decision-making, control, and navigation.
+Development of an autonomous vehicle perception pipeline using camera and LiDAR data.
 
 ## Project Overview
 
-This repository contains the development, experiments, and documentation related to an Autonomous Systems project.
+This project explores perception and sensor-based processing techniques for autonomous vehicles, progressing from RGB camera perception and object detection to LiDAR processing and multi-sensor fusion.
 
-The objective is to explore and implement concepts and techniques that enable systems to perceive their environment, make decisions, and perform autonomous tasks.
+The repository contains practical experiments, Jupyter notebooks, analysis and implementation code developed throughout the project.
+
+## Project Pipeline
+
+### 1. Dataset Exploration
+Initial exploration and analysis of the autonomous driving dataset.
+
+### 2. RGB Perception
+Development of a baseline camera-based perception approach.
+
+### 3. YOLO Object Detection
+RGB object detection experiments, model comparison and evaluation under different environmental conditions.
+
+### 4. LiDAR Exploration
+Analysis and exploration of LiDAR point cloud data.
+
+### 5. Camera–LiDAR Projection
+Projection and alignment experiments between camera images and LiDAR point clouds.
+
+### 6. Sensor Fusion
+Camera–LiDAR association and multi-sensor fusion experiments.
+
+### 7. PointPillars
+Exploration and testing of LiDAR-based 3D object detection using PointPillars.
 
 ## Repository Structure
 
 ```text
 autonomous-systems/
-├── docs/           # Project documentation
-├── src/            # Main source code
-├── experiments/    # Experiments and prototypes
-├── notebooks/      # Jupyter notebooks
-├── tests/          # Tests
-├── README.md
+├── notebooks/
+│   ├── 01_dataset_exploration/
+│   ├── 02_rgb_perception/
+│   ├── 03_yolo_detection/
+│   ├── 04_lidar_exploration/
+│   ├── 05_camera_lidar_projection/
+│   ├── 06_sensor_fusion/
+│   └── 07_pointpillars/
+├── src/
+│   └── stage5/
+├── results/
+├── docs/
+├── tests/
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ## Technologies
 
-To be defined according to the project implementation.
+- Python
+- Jupyter Notebook
+- YOLO
+- LiDAR point cloud processing
+- Camera–LiDAR sensor fusion
+- PointPillars
+
+## Data and Model Weights
+
+Datasets, trained model weights, virtual environments and generated outputs are excluded from this repository due to their size.
 
 ## Project Status
 
-🚧 In development.
+In development.
 
 ## Author
 
-Maritza Albán 
+Maritza
